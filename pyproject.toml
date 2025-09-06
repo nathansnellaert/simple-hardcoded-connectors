@@ -1,0 +1,19 @@
+[project]
+name = "simple-hardcoded-connectors"
+version = "0.1.0"
+description = "Simple hardcoded data connectors"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx",
+    "pyarrow",
+    "tenacity",
+    "ratelimit",
+    "boto3",
+    "duckdb",
+    "requests",
+    "pyiceberg",
+    "pandas"
+]
+
+[tool.uv]
+dev-dependencies = []
