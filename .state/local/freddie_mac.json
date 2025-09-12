@@ -1,9 +1,0 @@
-{
-  "last_updated": "2025-08-31T08:15:31.740119+00:00",
-  "row_count": 264652,
-  "_metadata": {
-    "updated_at": "2025-08-31T17:15:31.740232",
-    "run_id": "test-freddie-refactor",
-    "connector": "simple-hardcoded-connectors"
-  }
-}
