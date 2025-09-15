@@ -12,7 +12,8 @@ dependencies = [
     "duckdb",
     "requests",
     "pyiceberg",
-    "pandas"
+    "pandas",
+    "sqlalchemy>=2.0.43",
 ]
 
 [tool.uv]
