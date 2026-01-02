@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Simple hardcoded data connectors"
 requires-python = ">=3.11"
 dependencies = [
+    "psutil>=5.9.0",
     "httpx",
     "pyarrow",
     "tenacity",
@@ -11,10 +12,11 @@ dependencies = [
     "boto3",
     "duckdb",
     "requests",
-    "pyiceberg",
+    "deltalake>=0.17.0",
     "pandas",
     "sqlalchemy>=2.0.43",
 ]
 
 [tool.uv]
-dev-dependencies = []
+dev-dependencies = [
+    "psutil>=5.9.0",]
